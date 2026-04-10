@@ -5,6 +5,7 @@ import { Menu, X } from "lucide-react";
 
 const NAV_LINKS = [
   { label: "About", href: "#about" },
+  { label: "Products", href: "#products" },
   { label: "Services", href: "#services" },
   { label: "Why Us", href: "#why-us" },
   { label: "Contact", href: "#contact" },
@@ -71,9 +72,7 @@ export default function Navbar() {
             </button>
           ))}
           <a
-            href="https://wa.me/2347035088106"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/products"
             className="bg-brand-gradient text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-md shadow-primary/30"
           >
             Shop Now
@@ -109,9 +108,7 @@ export default function Navbar() {
             </button>
           ))}
           <a
-            href="https://wa.me/2347035088106"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/products"
             className="mt-2 bg-brand-gradient text-white font-semibold px-5 py-3 rounded-full text-center hover:opacity-90 transition-opacity duration-300 shadow-md"
           >
             Shop Now
